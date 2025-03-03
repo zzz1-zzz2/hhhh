@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="原神游戏客户端下载 - 点击视频立即获取最新版本">
+    <meta name="keywords" content="原神, 下载, 米哈游, 开放世界, RPG">
+    <title>😍原神启动😍</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "原神",
+      "operatingSystem": "Windows",
+      "applicationCategory": "Game",
+      "downloadUrl": "https://autopatchcn.yuanshen.com/client_app/download/launcher/20241225164539_9oyGHAOXvzP4uaBW/mihoyo/yuanshen_setup_202412201736.exe"
+    }
+    </script>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+
+    <!-- 视频容器，充满整个屏幕 -->
+    <div class="video-container">
+        <video autoplay loop muted playsinline id="bg-video">
+            <source src="yuanshen.mp4" type="video/mp4">
+            <track kind="captions" src="captions/zh-cn.vtt" label="中文" srclang="zh" default>
+            <p>您的浏览器不支持 HTML5 视频。您可以 <a href="yuanshen.mp4">点击这里</a> 下载视频。</p>
+        </video>
+    </div>
+
+    <!-- 底部图片，位于视频上层，并且底部对齐 -->
+    <img class="bottom-image" src="https://act-webstatic.mihoyo.com/puzzle/hk4e/pz_HchpTjRAPB/resource/puzzle/2025/01/23/ee06a8ef2024f07e882fa533afc73320_3198945895523275320.png?x-oss-process=image/format,webp/quality,Q_90" alt="底部图片">
+
+    <!-- 加载状态提示 -->
+    <div id="loading-overlay" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.8); justify-content:center; align-items:center; color:white; font-size:2em;">
+        正在准备下载...
+    </div>
+
+    <!-- 外部 JavaScript -->
+    <script src="scripts/main.js"></script>
+
+</body>
+</html>
